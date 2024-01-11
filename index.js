@@ -1,10 +1,10 @@
-precio = 400000
+let precio = 400000
 
-precioSpan = document.querySelector(".precio-inicial");
+let precioSpan = document.querySelector(".precio-inicial");
 precioSpan.innerHTML = precio
 
-count = document.querySelector(".cantidad");
-total =  document.querySelector(".valor-total");
+let count = document.querySelector(".cantidad");
+let total =  document.querySelector(".valor-total");
 
 function sumar() {
     // console.log(cantidad.innerHTML);
